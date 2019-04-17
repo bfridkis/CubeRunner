@@ -163,8 +163,9 @@ void updown(int inc)
 int main()
 {  
 
-	start_color();
-	refresh();
+	//Tried putting these in both initColorCodes.h & here...
+	//start_color();
+	//refresh();
 
 	//Exit if terminal does not support color
 	if (has_colors() == FALSE) {
