@@ -198,7 +198,7 @@ int main()
    // restore original settings and leave
    endwin();
    
-   cout << RED << "TEST" << RESET << endl;
+   //cout << RED << "TEST" << RESET << endl;
    
    return 0;
 }
